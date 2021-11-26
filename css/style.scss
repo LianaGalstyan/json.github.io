@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    max-width: 1540px;
+    width: 100%;
+    background-color: #0B98FC;
+    .header-section {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding:20px;
+    }
+    .tit {
+        margin-bottom: 15px;
+        h3 {
+            color: white;
+            line-height: 20px;
+            font-size: 24px;
+        }
+    }
+    .login-section {
+        .log {
+            background:none;
+            border: none;
+            color: white;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        .btn-free {
+            color: white;
+            background-color: black;
+            padding: 8px 10px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+main {
+    max-width: 1540px;
+    width: 100%;
+    background-color: #4D4D4D;
+    .main-section {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px 20px;
+        .popular-tit {
+            h3 {
+                color: white;
+            }
+        }
+    }
+}
+.container {
+    padding: 150px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    a {
+        &:hover img {
+            filter: blur(0px);
+          }
+          &:hover strong {
+            font-size: 32px;
+            padding-right: 5px;
+            background-color: #1E1E1E;
+        }
+    }
+    .series-block {
+        max-width: 200px;
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+        margin-right: 10px;
+        margin-bottom: 8px;
+        background-color: #808080;
+        strong {
+            position: relative;
+            z-index: 2;
+            bottom: 50px;
+            left: 25%;
+            color: white;
+            font-size: 25px; 
+            transition: 0.3s;
+        }
+        img {
+            filter: blur(4px);
+            transition: 0.7s;
+        }
+        
+    }
+    .series {
+            .title {
+                color: white;
+                padding: 8px;
+
+            }
+        }
+    .movies-block {
+        max-width: 200px;
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+        margin-right: 10px;
+        margin-bottom: 8px;
+        background-color: #808080;
+        strong {
+           position: relative;
+            z-index: 2;
+            bottom: 50px;
+            left: 25%;
+            color: white;
+            font-size: 25px;
+            transition: 0.3s;
+        }
+        img {
+            filter: blur(4px);
+            transition: 0.7s;
+        }
+    }
+    .movies {
+        .title {
+            color: white;
+            padding: 8px;
+        }
+    }
+}
+
+footer {
+    background-color: #1E1E1E;
+    padding-bottom: 25px;
+    .footer-section {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        .link-list {
+            padding: 50px 0px;
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            li {
+                margin-right:8px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .text {
+            p {
+                color: whitesmoke;
+                margin-bottom: 25px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    .social-icons {
+        i {
+            color: whitesmoke;
+            width: 20px;
+        }
+    }
+}
+
+.mov-block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 100%;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+.block {
+    border: none;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    .image {
+        max-width: 200px;
+        padding-bottom: 8px;
+        opacity: 0.7;
+        transition: 0.7s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    h1 {
+        color: #1E1E1E;
+        font-size: 24px; 
+    }
+}
+.arrow {
+    color: black;
+    padding-right: 25px;
+}
+.serie-block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 100%;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
